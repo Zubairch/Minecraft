@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\MC.cpp" />
+    <ClCompile Include="src\Window\Window.cpp" />
+    <ClCompile Include="src\Utilities\Memory.cpp" />
+    <ClCompile Include="src\Window\InputManager.cpp" />
+    <ClCompile Include="src\OpenGL\VertexBuffer.cpp" />
+    <ClCompile Include="src\EntryPoint\Main.cpp" />
+    <ClCompile Include="src\OpenGL\VertexArray.cpp" />
+    <ClCompile Include="src\OpenGL\IndexBuffer.cpp" />
+    <ClCompile Include="src\Utilities\FileSystem.cpp" />
+    <ClCompile Include="src\OpenGL\Shader.cpp" />
+    <ClCompile Include="src\OpenGL\Texture2D.cpp" />
+    <ClCompile Include="src\Camera\Camera.cpp" />
+    <ClCompile Include="src\Utilities\TimeStep.cpp" />
+    <ClCompile Include="src\Graphics\LayerStack.cpp" />
+    <ClCompile Include="src\Application\Application.cpp" />
+    <ClCompile Include="src\Application\GameLayer.cpp" />
+    <ClCompile Include="src\OpenGL\TextureCube.cpp" />
+    <ClCompile Include="src\Graphics\SkyboxRenderer.cpp" />
+    <ClCompile Include="src\Application\World\Block.cpp" />
+    <ClCompile Include="src\Application\World\Chunk.cpp" />
+    <ClCompile Include="src\Application\World\ChunkManager.cpp" />
+    <ClCompile Include="src\Camera\CameraController.cpp" />
+    <ClCompile Include="src\Graphics\Skybox.cpp" />
+    <ClCompile Include="src\Application\World\World.cpp" />
+    <ClCompile Include="src\Application\World\BlockData.cpp" />
+    <ClCompile Include="src\Application\World\BlockDataManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utilities\Types.h" />
+    <ClInclude Include="src\MC.h" />
+    <ClInclude Include="src\Window\Window.h" />
+    <ClInclude Include="src\Events\Event.h" />
+    <ClInclude Include="src\Utilities\Utilities.h" />
+    <ClInclude Include="src\Events\EventDispatcher.h" />
+    <ClInclude Include="src\Events\KeyEvent.h" />
+    <ClInclude Include="src\Events\MouseEvent.h" />
+    <ClInclude Include="src\Events\WindowEvent.h" />
+    <ClInclude Include="src\Application\Application.h" />
+    <ClInclude Include="src\Window\InputManager.h" />
+    <ClInclude Include="src\Window\Input.h" />
+    <ClInclude Include="src\OpenGL\BufferElement.h" />
+    <ClInclude Include="src\OpenGL\BufferLayout.h" />
+    <ClInclude Include="src\OpenGL\VertexBuffer.h" />
+    <ClInclude Include="src\OpenGL\Error.h" />
+    <ClInclude Include="src\OpenGL\VertexArray.h" />
+    <ClInclude Include="src\OpenGL\IndexBuffer.h" />
+    <ClInclude Include="src\OpenGL\Shader.h" />
+    <ClInclude Include="src\Utilities\FileSystem.h" />
+    <ClInclude Include="src\OpenGL\Texture2D.h" />
+    <ClInclude Include="src\Camera\Camera.h" />
+    <ClInclude Include="src\Utilities\Timer.h" />
+    <ClInclude Include="src\Utilities\Timestep.h" />
+    <ClInclude Include="src\Graphics\Layer.h" />
+    <ClInclude Include="src\Graphics\LayerStack.h" />
+    <ClInclude Include="src\Application\GameLayer.h" />
+    <ClInclude Include="src\OpenGL\RenderCommand.h" />
+    <ClInclude Include="src\OpenGL\TextureCube.h" />
+    <ClInclude Include="src\Graphics\SkyboxRenderer.h" />
+    <ClInclude Include="src\Application\World\Block.h" />
+    <ClInclude Include="src\Application\World\Chunk.h" />
+    <ClInclude Include="src\Application\World\ChunkManager.h" />
+    <ClInclude Include="src\Application\World\WorldConfig.h" />
+    <ClInclude Include="src\Camera\CameraController.h" />
+    <ClInclude Include="src\Graphics\IRenderer.h" />
+    <ClInclude Include="src\Graphics\Skybox.h" />
+    <ClInclude Include="src\Application\World\BlockData.h" />
+    <ClInclude Include="src\Application\World\World.h" />
+    <ClInclude Include="src\Application\World\BlockDataManager.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+
+----------- Minecraft -----------
+
+1: Setup Camera Controller.
+2: Setup BlockRenderer class.
